@@ -1,0 +1,61 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.keys{
+	width: 95%;
+	position: relative;
+	height: 20vh;
+	display: flex;
+	margin: auto;
+	border: 2px solid red;
+	top: 32vh;
+	justify-content: space-evenly;
+	align-content: center;
+	padding-top: 5px;
+	border-radius: 30px;
+
+}
+
+.key{
+	border-radius: 0.5rem;
+	border: 2px solid goldenrod;
+	height: 80%;
+	width: 8%;
+	padding: 3px;
+	text-align: center;
+	background-color: black;
+	transition: all 0.2s ease;
+	color: white;
+	margin: auto;
+	border-radius: 50px;
+}
+kbd{
+	display: block;
+	font-size: 40px;
+	margin: auto;
+	padding: 10px;
+	align-items: center;
+}
+span{
+	font-size: 20px;
+	color: gray;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: auto;
+}
+.playing{
+	transform: scale(1.1);
+	border-color: yellow;
+	box-shadow: 0 0 1rem yellow;
+}
+body{
+	background-image: url('image/mello.svg');
+	background-color: darksalmon ;
+	background-repeat: no-repeat;
+	ackground-attachment: fixed;
+	background-size: cover;
+}
